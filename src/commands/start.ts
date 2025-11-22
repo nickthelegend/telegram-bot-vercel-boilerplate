@@ -10,10 +10,10 @@ const start = () => async (ctx: Context) => {
   const keyboard: InlineKeyboardMarkup = {
     inline_keyboard: [
       [
-        { text: '🌐 X.com', url: 'https://x.com/arenarise' },
+        // { text: '🌐 X.com', url: 'https://x.com/arenarise' },
         { text: '💬 Community', url: 'https://t.me/arenarisecommunity' },
       ],
-      [{ text: '🎮 Play', url: 'https://arenarise.vercel.app' }],
+      [{ text: '🎮 Play', url: 'arenarise.nickthelegend.tech' }],
     ],
   };
 
