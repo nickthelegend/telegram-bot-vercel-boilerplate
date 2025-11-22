@@ -10,6 +10,17 @@ const ENVIRONMENT = process.env.NODE_ENV || '';
 
 const bot = new Telegraf(BOT_TOKEN);
 
+// Set persistent menu button
+bot.telegram.setChatMenuButton({
+  menuButton: {
+    type: 'web_app',
+    text: 'Play 🎮',
+    web_app: { url: 'https://arenarise.nickthelegend.tech' }
+  }
+}).then(() => {
+  console.log('✅ Menu button set successfully!');
+}).catch(console.error);
+
 bot.command('start', start());
 bot.command('about', about());
 bot.on('message', greeting());
