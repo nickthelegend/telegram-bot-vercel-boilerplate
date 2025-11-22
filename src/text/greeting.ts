@@ -11,7 +11,7 @@ const greeting = () => async (ctx: Context) => {
 
   const keyboard: InlineKeyboardMarkup = {
     inline_keyboard: [
-      [{ text: '🎮 Enter Arena', url: 'https://arenarise.vercel.app' }],
+      [{ text: '🎮 Enter Arena', url: 'https://arenarise.nickthelegend.tech' }],
     ],
   };
 

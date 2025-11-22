@@ -13,7 +13,7 @@ const about = () => async (ctx: Context) => {
         { text: '🌐 X.com', url: 'https://x.com/arenarise' },
         { text: '💬 Community', url: 'https://t.me/arenarisecommunity' },
       ],
-      [{ text: '🎮 Play Now', url: 'https://arenarise.vercel.app' }],
+      [{ text: '🎮 Play Now', url: 'https://arenarise.nickthelegend.tech' }],
     ],
   };
 

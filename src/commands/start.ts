@@ -13,7 +13,7 @@ const start = () => async (ctx: Context) => {
         // { text: '🌐 X.com', url: 'https://x.com/arenarise' },
         { text: '💬 Community', url: 'https://t.me/arenarisecommunity' },
       ],
-      [{ text: '🎮 Play', url: 'arenarise.nickthelegend.tech' }],
+      [{ text: '🎮 Play', url: 'https://arenarise.nickthelegend.tech' }],
     ],
   };
 
